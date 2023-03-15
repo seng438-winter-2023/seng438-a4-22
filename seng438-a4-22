@@ -1,0 +1,49 @@
+**SENG 438 - Software Testing, Reliability, and Quality**
+
+**Lab. Report \#4 – Mutation Testing and Web app testing**
+
+| Group \#: 22      | Names    |
+| -------------- | --- |
+| Student Names: | Topan Budiman    |
+|                | Mark Ngu    |
+|                | Jacob Schon    |
+|                | Muhammed Shah    |
+
+# Introduction
+
+# Analysis of 10 Mutants of the Range class 
+
+# Report all the statistics and the mutation score for each test class
+
+### DataUtilitiesTest
+
+
+# Analysis drawn on the effectiveness of each of the test classes
+
+After careful analysis of the mutation score and test coverage, the DataUtilitiesTest class was effective at catching defects. Before performing mutation tests and using our test suite from assignment #3, we have 60% mutation coverage. After performing extensive mutation testing on the test suite, we were able to achieve <b>99%</b>. One thing to keep in mind is that we did not test every method since we worked on improving the methods from the previous assignment.
+
+# A discussion on the effect of equivalent mutants on mutation score accuracy
+
+# A discussion of what could have been done to improve the mutation score of the test suites
+
+For the DataUtilities test suite, we already had a 60% mutation score so our tests covered a large amount of mutants. However, one thing we noticed is that we didn’t check for null values and mutants for exceptions being thrown. For example, a lot of methods have a function that checks if a parameter is null. When that function was removed, the mutant survived since we did not check exceptions for null values. After checking for exceptions, it increased our mutation score by almost ~8%.
+
+# Why do we need mutation testing? Advantages and disadvantages of mutation testing
+
+Mutation testing is a crucial part of the test-case-design and test-evaluation process. By purposely injecting faults into the system. Some advantages of mutation testing is that it measures the quality of test cases, compared with other methods of testing, mutation testing provides the tester with a clear target which is the number of mutants to kill and since there is a greater focus on inspecting the source code, it forces the programmer to think of test data that will expose certain kinds of faults. Some disadvantages associated with mutation testing is that there could be a large amount of equivalent mutants that are undetected by the system, too many mutants could also require a lot of time. The classes we were analyzing weren’t that large and it still took a considerable amount of time. With a much larger system, trying to cover every mutant could be demanding in both time and resources. 
+
+# Explain your SELENUIM test case design process
+
+# Explain the use of assertions and checkpoints
+
+# how did you test each functionaity with different test data
+
+# Discuss advantages and disadvantages of Selenium vs. Sikulix
+
+# How the team work/effort was divided and managed
+
+# Difficulties encountered, challenges overcome, and lessons learned
+
+# Comments/feedback on the lab itself
+
+The lab was structured well and had clear instructions.
