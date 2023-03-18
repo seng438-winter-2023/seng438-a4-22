@@ -1,0 +1,202 @@
+{
+  "id": "4d20004c-93ae-4786-96bf-c6e77209df27",
+  "version": "2.0",
+  "name": "Amazon",
+  "url": "https://www.amazon.ca/",
+  "tests": [{
+    "id": "32a9058e-f06e-46d5-b4d3-aae525122570",
+    "name": "Add to Wish List",
+    "commands": [{
+      "id": "cf0f61a9-4f6e-430e-a0ec-068a92894bf0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.amazon.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a760a845-6170-48fe-b41d-6fa81351a285",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4eb6a032-fc4b-4606-a0ea-3e4a40da64d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_cDEzb_missionImage_bHVL4",
+      "targets": [
+        ["css=.\\_cDEzb_missionImage_bHVL4", "css:finder"],
+        ["xpath=//img[@alt='Echo Flex - Plug-in mini smart speaker with Alexa']", "xpath:img"],
+        ["xpath=//div[@id='CardInstancenzsBsdRBDEHX89uhbOUcxw']/div/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79199106-7ca6-4b69-ab7f-67ef72ca6289",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_cDEzb_container_2YT7O > .a-truncate:nth-child(2) > .a-truncate-cut",
+      "targets": [
+        ["css=.\\_cDEzb_container_2YT7O > .a-truncate:nth-child(2) > .a-truncate-cut", "css:finder"],
+        ["xpath=//div[@id='CardInstanceoKGrkW4NcbDOnf12w3GTVw']/div[2]/div/div/a/div/span/span[2]", "xpath:idRelative"],
+        ["xpath=//a/div/span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83b14f77-3108-4be3-8a88-d98189a16e14",
+      "comment": "",
+      "command": "click",
+      "target": "id=add-to-wishlist-button",
+      "targets": [
+        ["id=add-to-wishlist-button", "id"],
+        ["css=#add-to-wishlist-button", "css:finder"],
+        ["xpath=//input[@id='add-to-wishlist-button']", "xpath:attributes"],
+        ["xpath=//span[@id='wishListDropDown']/span/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/span[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f249d9c5-25e7-4308-9c99-6f86f73c4fdd",
+      "comment": "",
+      "command": "click",
+      "target": "id=atwl-list-name-1A0M0ZQIELFTY",
+      "targets": [
+        ["id=atwl-list-name-1A0M0ZQIELFTY", "id"],
+        ["css=#atwl-list-name-1A0M0ZQIELFTY", "css:finder"],
+        ["xpath=//span[@id='atwl-list-name-1A0M0ZQIELFTY']", "xpath:attributes"],
+        ["xpath=//a[@id='atwl-link-to-list-1A0M0ZQIELFTY']/span/div/div/div[2]/span", "xpath:idRelative"],
+        ["xpath=//span/div/div/div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b117f615-ce70-4cd7-9854-6a1f17f2bcfd",
+    "name": "Viewing Shopping Cart",
+    "commands": [{
+      "id": "1980f166-aa04-4a8f-a816-43fe7dbc6d0b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.amazon.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de30736d-69de-416d-8fff-9f09aa11eee6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "660183fe-02c3-4f3f-bc52-ce52a01d56d2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.nav-cart-icon",
+      "targets": [
+        ["css=.nav-cart-icon", "css:finder"],
+        ["xpath=//div[@id='nav-cart-count-container']/span[2]", "xpath:idRelative"],
+        ["xpath=//a[5]/div/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f96cd931-3b1d-4c07-86fb-2d455cd80749",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-cart-icon",
+      "targets": [
+        ["css=.nav-cart-icon", "css:finder"],
+        ["xpath=//div[@id='nav-cart-count-container']/span[2]", "xpath:idRelative"],
+        ["xpath=//a[5]/div/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52793ef3-d94d-4fd0-98f5-92133a2301e7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.nav-cart-icon",
+      "targets": [
+        ["css=.nav-cart-icon", "css:finder"],
+        ["xpath=//div[@id='nav-cart-count-container']/span[2]", "xpath:idRelative"],
+        ["xpath=//a[5]/div/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ace35e6-f5cd-44b6-ba72-f43884aee55d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.nav-cart-icon",
+      "targets": [
+        ["css=.nav-cart-icon", "css:finder"],
+        ["xpath=//div[@id='nav-cart-count-container']/span[2]", "xpath:idRelative"],
+        ["xpath=//a[5]/div/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9678d690-d851-4079-8161-feee989e16a8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=a-autoid-0-announce",
+      "targets": [
+        ["id=a-autoid-0-announce", "id"],
+        ["css=#a-autoid-0-announce", "css:finder"],
+        ["xpath=//button[@id='a-autoid-0-announce']", "xpath:attributes"],
+        ["xpath=//span[@id='a-autoid-0']/span/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Learn more')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f4ba984-764a-414c-97fe-b4fd8cdf6339",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=a-autoid-0-announce",
+      "targets": [
+        ["id=a-autoid-0-announce", "id"],
+        ["css=#a-autoid-0-announce", "css:finder"],
+        ["xpath=//button[@id='a-autoid-0-announce']", "xpath:attributes"],
+        ["xpath=//span[@id='a-autoid-0']/span/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Learn more')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "453d62ce-b47a-4e8e-add2-b33224d10888",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1760)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef406333-6559-4e88-bab7-60c2bc2aa67d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2565)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a3dae4f-dd0c-4b9d-8497-2d89b76f20b2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1a60bff-a464-4865-9a3c-569309eec836",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "89287d08-d973-4fd0-8715-b133da7028df",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.amazon.ca/"],
+  "plugins": []
+}
